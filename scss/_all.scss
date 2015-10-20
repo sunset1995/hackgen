@@ -4,9 +4,11 @@ $darkBlue: #939CA2;
 $gray: #C7D2B7;
 $lightBlue: #D9EBEA;
 
+$fontNormal: 1.28em;
+
 *{
 	margin: 0px;
-	padding: 0px;
+	font-family: "Open Sans","Helvetica","Microsoft JhengHei","PT Sans Narrow","Source Han Sans TWHK",sans-serif;
 }
 
 body , html{
@@ -20,5 +22,17 @@ body , html{
 	@media screen and (min-width: 1200px){
 		width: 80%;
 		margin: 0 auto;
+	}
+	@media screen and (min-width: 900px){
+		#logo{
+			display: inline-block;
+		}
+		#navbar{
+			display: inline-block;
+			top: -1em;
+		}
+		&{
+			text-align: center;
+		}
 	}
 }
