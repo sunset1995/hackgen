@@ -1,0 +1,24 @@
+
+$darkGreen: #A7AE84;
+$darkBlue: #939CA2;
+$gray: #C7D2B7;
+$lightBlue: #D9EBEA;
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body , html{
+	width: 100%;
+	height: 100%;
+}
+
+.responsive{
+	width: 100%;
+
+	@media screen and (min-width: 1200px){
+		width: 80%;
+		margin: 0 auto;
+	}
+}
