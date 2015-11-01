@@ -3,10 +3,10 @@ require('./lib/dom.js');
 var get = require('./lib/get.js');
 
 var pages = [
-	{url: '/pages/about' , id: 'about_text' , btnid: 'about'},
-	{url: '/pages/rules' , id: 'rules_text' , btnid: 'rules'},
-	{url: '/pages/schedule' , id: 'schedule_text' , btnid: 'schedule'},
-	{url: '/pages/staff' , id: 'staff_text' , btnid: 'staff'}
+	{url: './pages/about' , id: 'about_text' , btnid: 'about'},
+	{url: './pages/rules' , id: 'rules_text' , btnid: 'rules'},
+	{url: './pages/schedule' , id: 'schedule_text' , btnid: 'schedule'},
+	{url: './pages/staff' , id: 'staff_text' , btnid: 'staff'}
 ];
 
 var nowShow = 'about_text';
