@@ -9,7 +9,7 @@ var pages = [
 	{url: './pages/staff' , id: 'staff_text' , btnid: 'staff'}
 ];
 
-var nowShow = 'about_text';
+var nowShow = 'nothing';
 var lock = false;
 for(var i=0 ; i<pages.length ; ++i){
 	var getPage = function(){
