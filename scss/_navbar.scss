@@ -30,12 +30,13 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		h1{
 			color: $darkGreen;
 			position: absolute;
-			top: 1em;
 			left: 50%;
+			top: .5em;
 			transform: translateX(-50%);
 			opacity: 0;
 			transition: opacity 800ms $bezierTime;
 			pointer-events: none;
+			font-size: 3em;
 		}
 
 		&:hover{
@@ -72,9 +73,11 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	#target_#{$tab}:target + ##{$tab}.open{
 		color: $darkBlue;
 		.nav_sub_triangle{
+			transition: opacity 800ms $bezierTime 300ms;
 			opacity: 1;
 		}
 		h1{
+			transition: opacity 800ms $bezierTime 300ms;
 			opacity: 1;
 		}
 	}

@@ -7,14 +7,16 @@ $lightBlue: #D9EBEA;
 $fontNormal: 1.28em;
 
 $bezierTime: cubic-bezier(.16 , .84 , .44 , 1);
+$easeInOutBack: cubic-bezier(.68 , -.55 , .265 , 1.55);
 
 *{
 	margin: 0px;
-	font-family: "Open Sans","Helvetica","Microsoft JhengHei","PT Sans Narrow","Source Han Sans TWHK",sans-serif;
+	font-family: Helvetica,"Open Sans","Microsoft JhengHei","PT Sans Narrow","Source Han Sans TWHK",sans-serif;
 }
 
 body{
 	overflow-y: scroll;
+	position: relative;
 }
 
 .responsive{

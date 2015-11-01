@@ -1,12 +1,103 @@
 
 #content{
 	background-color: white;
-	height: 2em;
+	min-height: 0em;
 	margin-top: 6em;
-	box-shadow: 0 0 6em 4em white;
-	transition: height 1000ms $bezierTime;
+	box-shadow: 0 0 6em 4em rgba(255,255,255,.8);
+	background-color: rgba(255,255,255,.8);
+	color: $darkGreen;
+	font-size: $fontNormal;
+	overflow-x: hidden;
+	transition: min-height 800ms $bezierTime;
 
+	&>.responsive{
+		transition: opacity 800ms $bezierTime 1200ms;		
+		opacity: 0;
+	}
 	&.open{
-		height: 30em;
+		min-height: 20em;
+		&>.responsive{
+			opacity: 1;
+		}
+	}
+
+	article{
+		p{
+			margin: 1em 0;
+			padding-left: 0;
+		}
+	}
+	strong{
+		display: block;
+		text-align: center;
+	}
+	h2{
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	h3{
+		margin-top: 1.5em;
+	}
+	p{
+		padding-left: 1em;
+		text-align: justify;
+	}
+	ul{
+		padding-left: 4em;
+	}
+	.hr{
+		background-color: $darkGreen;
+		height: .8em;
+		margin: 4em 0;
+	}
+
+	.tb{
+		vertical-align: top;
+		margin: 1em 0;
+
+		.title{
+			width: 20%;
+			float: left;
+			text-align: right;
+			font-weight: 900;
+		}
+		.info{
+			width: 78%;
+			float: right;
+			text-align: left;
+		}
+		&::after{
+			display: block;
+			content: ' ';
+			clear: both;
+		}
+
+
+
+		.col_left{
+			width: 49%;
+			float: left;
+		}
+		.col_right{
+			width: 49%;
+			float: right;
+		}
+		.task{
+			text-align: right;
+			font-weight: 900;
+		}
+		.people{
+			text-align: left;
+		}
+	}
+}
+
+.text{
+	display: none;
+	transition: opacity 800ms $bezierTime;
+	opacity: 0;
+
+	&.show{
+		opacity: 1;
 	}
 }

@@ -1,4 +1,3 @@
-
 // include library
 require('./lib/dom.js');
 
@@ -18,9 +17,3 @@ var startingPage = function(){
 Qall( '.nav' , function( ele ){
 	addEvent(ele , 'click' , startingPage);
 });
-
-var pages = [
-	"about",
-	"rules",
-	
-];

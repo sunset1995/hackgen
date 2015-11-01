@@ -10,6 +10,9 @@
 Q = function( queryStr ){
 	return document.querySelector( queryStr );
 }
+Qid = function( id ){
+	return document.getElementById( id );
+}
 Qall = function( queryStr , func ){
 	var tmp = document.querySelectorAll( queryStr );
 	for(var i=0 ; i<tmp.length ; ++i)
@@ -26,14 +29,14 @@ removeEvent = function( ele , eve , func ){
 	else if( ele.detachEvent ) ele.detachEvent('on'+eve , func);
 	else ele[eve] = null;
 }
-GET = function( url , callback ){
-	var xhttp;
-	if( XMLHttpRequest ) xhttp = new XMLHttpRequest();
-	else xhttp = new ActiveXObject("Msxml2.XMLHTTP");
-	xhttp.open("GET" , url , true);
-	xhttp.onreadystatechange = function(){
-		if( xhttp.readyState == 4 && typeof callback === 'function' )
-			callback( xhttp.responseText );
-	}
-	xhttp.send();
+removeClass = function( ele , classname ){
+	if( !ele || !ele.className ) return;
+	var reg = new RegExp(classname , "g");
+	ele.className = ele.className.replace( reg , "" );
+}
+addClass = function( ele , applyclass ){
+	if( !ele || !ele.className ) return;
+	if( ele.className.indexOf(applyclass)!=-1 ) return;
+	if( ele.className.length>0 ) ele.className += ' '+applyclass;
+	else ele.className = applyClass;
 }

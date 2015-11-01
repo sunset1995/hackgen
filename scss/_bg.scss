@@ -14,15 +14,20 @@
 	}
 
 	img{
-		width: 100%;
+		width: 120%;
 		height: auto;
 		position: absolute;
-		left: 0;
+		left: -8%;
 	}
 	.bgTop{
-		top: 0;
+		top: -14%;
 	}
 	.bgBtn{
-		bottom: 0;
+		bottom: -14%;
+		//opacity: .5;
 	}
+}
+
+#bg_footer_stand{
+	height: 16em;
 }
