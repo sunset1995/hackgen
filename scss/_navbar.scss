@@ -8,9 +8,16 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	color: $darkGreen;
 	background-color: #fff;
 	width: 600px;
-	margin: 0 auto;
+	margin: 2em auto 0 auto;
 	border-radius: .3em;
-	box-shadow: 0 0 10px 10px #fff;
+	box-shadow: 0 0 .5em .5em #fff;
+
+	// landing page animation
+	transition: top 1000ms $bezierTime;
+	top: 6em;
+	&.open{
+		top: 0;
+	}
 
 	.nav{
 		position: relative; // for below triangle
@@ -18,6 +25,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		color: $darkGreen;
 		font-weight: 600;
 		padding: 0 0.5em;
+		transition: color 800ms $bezierTime;
 
 		h1{
 			color: $darkGreen;
@@ -26,6 +34,8 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 			left: 50%;
 			transform: translateX(-50%);
 			opacity: 0;
+			transition: opacity 800ms $bezierTime;
+			pointer-events: none;
 		}
 
 		&:hover{
@@ -48,6 +58,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		border-left: 0.4em solid transparent;
 		border-right: 0.4em solid transparent;
 		opacity: 0;
+		transition: opacity 800ms $bezierTime;
 	}
 }
 
@@ -58,7 +69,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	top: 0;
 }
 @each $tab in $tabs {
-	#target_#{$tab}:target + ##{$tab}{
+	#target_#{$tab}:target + ##{$tab}.open{
 		color: $darkBlue;
 		.nav_sub_triangle{
 			opacity: 1;

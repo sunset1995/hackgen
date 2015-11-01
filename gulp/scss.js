@@ -9,7 +9,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var sassPath = require('./_config.js').sass;
 var errorLog = require('./_errorLog.js').errorLog;
 
-gulp.task('scss',function(){
+gulp.task('scss' , function(){
 	return gulp.src( sassPath.src )
 		.pipe(sass())
 		.on('error' , errorLog )

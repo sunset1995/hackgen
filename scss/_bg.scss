@@ -8,26 +8,21 @@
 	height: 100%;
 	background-color: $lightBlue;
 
+	.layer{
+		width: 100%;
+		height: 100%;
+	}
+
 	img{
 		width: 100%;
 		height: auto;
 		position: absolute;
+		left: 0;
 	}
-}
-
-#bgTop1{
-	transform: translateZ(0px);
-	top: 0;
-}
-#bgTop2{
-	transform: translateZ(-50px);
-	top: 0;
-}
-#bgTop3{
-	transform: translateZ(50px);
-	top: 0;
-}
-
-#bg_footer_stand{
-	height: 20em;
+	.bgTop{
+		top: 0;
+	}
+	.bgBtn{
+		bottom: 0;
+	}
 }

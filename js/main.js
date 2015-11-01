@@ -1,0 +1,2 @@
+
+require('./onready.js');
