@@ -11,8 +11,8 @@ var img3 = Qid('img3');
 var img4 = Qid('img4');
 addEvent(window , 'scroll' , function(){
 	var persentage = scroller.getY() / scroller.getMaxY();
-	img1.style.top = (-10 - 2*persentage).toString() + '%';
-	img3.style.top = (-10 - 4*persentage).toString() + '%';
-	img2.style.bottom = (-14 + 2*persentage).toString() + '%';
-	img4.style.bottom = (-14 + 4*persentage).toString() + '%';
+	img1.style.top = (-10 - 4*persentage).toString() + '%';
+	img3.style.top = (-10 - 8*persentage).toString() + '%';
+	img2.style.bottom = (-14 + 4*persentage).toString() + '%';
+	img4.style.bottom = (-14 + 8*persentage).toString() + '%';
 });
