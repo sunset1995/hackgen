@@ -1,0 +1,67 @@
+
+<h3>活動時間</h3>
+<p> 2015/1/17 至 2015/1/18 共 32 小時</p>
+
+<h3>活動地點</h3>
+<p>大同大學尚志大樓 8 樓 814 教室</p>
+
+<h3>活動內容</h3>
+<p>若您對學校之校園系統、教學平台或是資訊相關等系統有任何不滿意，或是學校沒有提供你想要的服務，就跟好朋友一同組隊來參加吧！</p>
+
+<h3>我可以做什麼？</h3>
+<p>首先先依據我們所給予的作品類別（見下方）找出想要做的專案，在本次活動中，將學生們應該獲得的資訊加以整理，建立完整應用程式，並公開於網路上供大家參考，提供不同學校、科系去一同開發。</p>
+<p>本次活動也歡迎將自己未完成的專案帶來開發！</p>
+
+<h3>誰可以參加？</h3>
+<p>任何在學學生皆可以參加！</p>
+
+<h3>我想不到要做什麼，該怎麼辦？</h3>
+<p>可以參考過去 HackGen 所製作的專案，也可以使用原先的專案加以改進</p>
+<p>過去開發的專案請見：https://github.com/hackgen</p>
+<p>其他的學校也有相關的作品，如：</p>
+<ul>
+	<li>台科大選課模擬系統：http://ntust.cc/</li>
+	<li>台科防爆網：http://ntust-bomb.org/</li>
+	<li>大同大學校園資訊系統美化：https://github.com/TakeshiTseng/ttubeautifier</li>
+	<li>校園無線網路自動登入：https://github.com/HackGen/TTU-WiFiAutoLogin</li>
+	<li>台科學生會票務助理：https://github.com/linroex/ntustsg-release-ticket-chrome-extension</li>
+	<li>台大投票系統：https://github.com/mousems/NTUvote102-2</li>
+</ul>
+
+<div class="hr"></div>
+
+<h3>作品類型</h3>
+<div class="tb">
+	<div class="title">資訊類</div>
+	<div class="info">
+		<p>統整校園相關資訊或規章，藉由程式處理、分析，降低學生存取的門檻。</p>
+		<p>如：學校法規整理、獎學金資訊整理、活動資訊等。</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="title">平台類</div>
+	<div class="info">
+		<p>提供學生分享學習、課程或是書籍等資訊，藉由建立平台使學生得以互相交流。</p>
+		<p>如：二手書與文具交易平台、課業交流平台等。</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="title">系統類</div>
+	<div class="info">
+		<p>設計校園環境中會使用到之資訊系統。</p>
+		<p>如：選課模擬系統、課程即時回饋系統或是師生互動系統等。</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="title">增益類</div>
+	<div class="info">
+		<p>以目前學校既有之資訊平台、系統加以改善。</p>
+		<p>如美化界面、提昇使用經驗、資訊系統導覽等。</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="title">其他類</div>
+	<div class="info">
+		<p>任何能改善學生學習品質之議題。</p>
+	</div>
+</div>
