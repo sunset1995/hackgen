@@ -19,7 +19,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		top: 0;
 	}
 
-	.nav{
+	.nav , a{
 		position: relative; // for below triangle
 		text-decoration: none;
 		color: $darkGreen;
