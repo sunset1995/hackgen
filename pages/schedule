@@ -1,0 +1,68 @@
+
+<div class="tb">
+
+<div class="col_left">
+	<h3>Day 1</h3>
+	<div class="tb">
+		<div class="title">09:00</div>
+		<div class="info">報到</div>
+	</div>
+	<div class="tb">
+		<div class="title">09:30</div>
+		<div class="info">開場、各組自我介紹</div>
+	</div>
+	<div class="tb">
+		<div class="title">09:50</div>
+		<div class="info">黑客松活動</div>
+	</div>
+	<div class="tb">
+		<div class="title">12:00</div>
+		<div class="info">午餐</div>
+	</div>
+	<div class="tb">
+		<div class="title">13:00</div>
+		<div class="info">黑客松活動</div>
+	</div>
+	<div class="tb">
+		<div class="title">17:30</div>
+		<div class="info">第一天結束</div>
+	</div>
+</div>
+
+<div class="col_right">
+	<h3>Day 2</h3>
+	<div class="tb">
+		<div class="title">09:00</div>
+		<div class="info">報到</div>
+	</div>
+	<div class="tb">
+		<div class="title">09:15</div>
+		<div class="info">黑客松活動</div>
+	</div>
+	<div class="tb">
+		<div class="title">09:50</div>
+		<div class="info">午餐</div>
+	</div>
+	<div class="tb">
+		<div class="title">12:00</div>
+		<div class="info">午餐</div>
+	</div>
+	<div class="tb">
+		<div class="title">13:00</div>
+		<div class="info">黑客松活動</div>
+	</div>
+	<div class="tb">
+		<div class="title">16:30</div>
+		<div class="info">各隊作品展示</div>
+	</div>
+	<div class="tb">
+		<div class="title">17:30</div>
+		<div class="info">活動結束</div>
+	</div>
+	<div class="tb">
+		<div class="title">18:00</div>
+		<div class="info">交流晚宴</div>
+	</div>
+</div>
+
+</div>

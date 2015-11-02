@@ -14,5 +14,10 @@ module.exports = {
 		src: './js/main.js',
 		dst: './build',
 		watch: './js/**/**'
+	},
+	html: {
+		src: './index.html',
+		dst: './build',
+		watch: ['./index.html','./pages/*']
 	}
 };

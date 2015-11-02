@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HackGen</title>
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="hackgen.css">
+</head>
+<body>
+	<div id="bg">
+		<div class="layer" data-depth="0.2">
+			<img src="image/bg2Top.png" class="bgTop" id="img1">
+			<img src="image/bg2Btn.png" class="bgBtn" id="img2">
+		</div>
+		<div class="layer" data-depth="0.5">
+			<img src="image/bgTop.png" class="bgTop" id="img3">
+			<img src="image/bgBtn.png" class="bgBtn" id="img4">
+		</div>
+	</div>
+
+	<div class="responsive">
+
+		<div id="logo">
+			<div id="bgCircle">
+				<img src="image/logoBg.png" id="logoBg">
+				<img src="image/logo.png" id="logoMain">
+			</div>
+		</div>
+		
+		<div id="navbar">
+			<!--
+				CSS trick:
+					I use target selector and adjacent sibling selector
+					to know which link user click and apply selected style.
+			-->
+
+			<div id="target_about" class="targetor"></div>
+			<a class="nav" id="about" href="#target_about">
+				About
+				<div class="nav_sub_triangle"></div>
+				<h1>About</h1>
+			</a>
+
+			<span class="nav_seperator">/</span>
+
+			<div id="target_rules" class="targetor"></div>
+			<a class="nav" id="rules" href="#target_rules">
+				Rules
+				<div class="nav_sub_triangle"></div>
+				<h1>Rules</h1>
+			</a>
+
+			<span class="nav_seperator">/</span>
+
+			<div id="target_schedule" class="targetor"></div>
+			<a class="nav" id="schedule" href="#target_schedule">
+				Schedule
+				<div class="nav_sub_triangle"></div>
+				<h1>Schedule</h1>
+			</a>
+
+			<span class="nav_seperator">/</span>
+
+			<div id="target_staff" class="targetor"></div>
+			<a class="nav" id="staff" href="#target_staff">
+				Staff
+				<div class="nav_sub_triangle"></div>
+				<h1>Staff</h1>
+			</a>
+
+			<div id="target_apply" class="targetor"></div>
+			<a id="apply" href="http://sitcon.kktix.cc/events/hackgen2015" target="_blank">
+				<span class="nav_triangle"></span>
+				Apply Now
+			</a>
+
+			<div id="nothing"></div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div class="responsive">
+			<div id="about_text" class="text">
+				@@include('./pages/about')
+			</div>
+			<div id="rules_text" class="text">
+				@@include('./pages/rules')
+			</div>
+			<div id="schedule_text" class="text">
+				@@include('./pages/schedule')
+			</div>
+			<div id="staff_text" class="text">
+				@@include('./pages/staff')
+			</div>
+		</div>
+	</div>
+
+	<div id="bg_footer_stand"></div>
+
+	<script src="parallax.min.js"></script>
+	<script src="hackgen.js"></script>
+</body>
+</html>

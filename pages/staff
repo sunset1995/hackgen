@@ -1,0 +1,28 @@
+
+<div class="tb">
+	<div class="task col_left">總召</div>
+	<div class="people col_right">
+		<p>Oscar</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="task col_left">校內協辦人員</div>
+	<div class="people col_right">
+		<p>洋蔥</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="task col_left">場務</div>
+	<div class="people col_right">
+		<p>潘彥成</p>
+		<p>味噌</p>
+	</div>
+</div>
+<div class="tb">
+	<div class="task col_left">文創</div>
+	<div class="people col_right">
+		<p>菲</p>
+		<p>央</p>
+		<p>Sunset</p>
+	</div>
+</div>
