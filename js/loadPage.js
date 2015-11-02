@@ -41,7 +41,6 @@ for(var i=0 ; i<pages.length ; ++i){
 		);
 	}();
 
-	console.log( pages[i].btnid + ' ' + urlhash );
 	if( pages[i].btnid==urlhash ){
 		lock = true;
 		setTimeout(function(){
