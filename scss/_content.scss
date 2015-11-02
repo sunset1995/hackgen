@@ -21,6 +21,9 @@
 		}
 	}
 
+	a{
+		color: $darkBlue;
+	}
 	article{
 		p{
 			margin: 1em 0;
@@ -43,6 +46,7 @@
 		text-align: justify;
 	}
 	ul{
+		margin-top: .5em;
 		padding-left: 4em;
 	}
 	.hr{
