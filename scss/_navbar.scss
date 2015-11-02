@@ -7,7 +7,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	font-size: $fontNormal;
 	color: $darkGreen;
 	background-color: #fff;
-	width: 600px;
+	max-width: 600px;
 	margin: 2em auto 0 auto;
 	border-radius: .3em;
 	box-shadow: 0 0 .5em .5em #fff;
@@ -60,6 +60,20 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		border-right: 0.4em solid transparent;
 		opacity: 0;
 		transition: opacity 800ms $bezierTime;
+	}
+
+	@media screen and (max-width: 800px){
+		.nav , a{
+			display: block;
+			position: static;
+		}
+		.nav_sub_triangle , .nav_seperator{
+			display: none;
+		}
+		.nav > h1{
+			position: absolute;
+			top: 100%;
+		}
 	}
 }
 
