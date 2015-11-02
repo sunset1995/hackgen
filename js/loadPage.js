@@ -1,6 +1,6 @@
 // include library
 require('./lib/dom.js');
-var get = require('./lib/get.js');
+//var get = require('./lib/get.js');
 
 var pages = [
 	{url: './pages/about' , id: 'about_text' , btnid: 'about'},

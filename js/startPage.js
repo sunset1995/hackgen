@@ -1,6 +1,10 @@
 // include library
 require('./lib/dom.js');
 
+if( window.location.hash == "" )
+	window.location.hash = "#target_about";
+
+/*
 if( !window.location.hash || window.location.hash == "" ){
 	var startingPage = function(){
 		Q('#navbar').className += ' open';
@@ -19,7 +23,7 @@ if( !window.location.hash || window.location.hash == "" ){
 		addEvent(ele , 'click' , startingPage);
 	});
 }
-else{
+else{*/
 	Q('#navbar').className += ' open';
 	Q('#content').className += ' open';
 	setTimeout(function(){
@@ -27,4 +31,4 @@ else{
 			ele.className += ' open';
 		});
 	} , 800);
-}
+//}
