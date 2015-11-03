@@ -1,4 +1,5 @@
 
+require('./lib/parallax.js');
 var bg = document.getElementById('bg');
 var parallax = new Parallax(bg);
 
