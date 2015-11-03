@@ -16,6 +16,7 @@ $easeInOutBack: cubic-bezier(.68 , -.55 , .265 , 1.55);
 body {
 	overflow-y: scroll;
 	position: relative;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4), 1px 1px 0px rgba(133,133,100,0.333);
 }
 
 .responsive {
