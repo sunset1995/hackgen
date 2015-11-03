@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sunset1995/hackgen#readme",
   "devDependencies": {
+    "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-browserify": "^0.5.1",
