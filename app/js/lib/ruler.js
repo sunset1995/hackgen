@@ -1,21 +1,20 @@
-
 require('./dom.js');
-scroller = function(){
+scroller = function() {
 	var getScrollY = null;
 
 	return {
-		getY: function(){
+		getY: function() {
 			if( getScrollY !== null )
 				return getScrollY();
 			if(self.pageYOffset)
-				getScrollY = function(){ return self.pageYOffset };
+				getScrollY = function() { return self.pageYOffset };
 			else if(document.documentElement && document.documentElement.scrollTop)
-				getScrollY = function(){ return document.documentElement.scrollTop };
-			else getScrollY = function(){ return document.body.scrollTop; };
+				getScrollY = function() { return document.documentElement.scrollTop };
+			else getScrollY = function() { return document.body.scrollTop; };
 
 			return getScrollY();
 		},
-		getMaxY: function(){
+		getMaxY: function() {
 			return document.body.offsetHeight - window.innerHeight;
 		}
 	};
