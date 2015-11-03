@@ -11,7 +11,7 @@ module.exports = {
 		watch: './scss/**/*'
 	},
 	js: {
-		src: './js/main.js',
+		src: './js/hackgen.js',
 		dst: './build',
 		watch: './js/**/**'
 	},
