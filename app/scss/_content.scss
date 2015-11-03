@@ -1,5 +1,4 @@
-
-#content{
+#content {
 	background-color: white;
 	min-height: 0em;
 	margin-top: 6em;
@@ -10,64 +9,64 @@
 	overflow-x: hidden;
 	transition: min-height 800ms $bezierTime;
 
-	&>.responsive{
+	&>.responsive {
 		transition: opacity 800ms $bezierTime 1200ms;		
 		opacity: 0;
 	}
-	&.open{
+	&.open {
 		min-height: 20em;
-		&>.responsive{
+		&>.responsive {
 			opacity: 1;
 		}
 	}
 
-	article{
-		p{
+	article {
+		p {
 			margin: 1em 0;
 			padding-left: 0;
 		}
 	}
-	strong{
+	strong {
 		display: block;
 		text-align: center;
 	}
-	h2{
+	h2 {
 		text-align: center;
 		margin-bottom: 1em;
 	}
-	h3{
+	h3 {
 		margin-top: 1.5em;
 	}
-	p{
+	p {
 		padding-left: 1em;
 		text-align: justify;
 	}
-	ul{
+	ul {
 		margin-top: .5em;
 		padding-left: 4em;
 	}
-	.hr{
+	.hr {
 		background-color: $darkGreen;
 		height: .8em;
 		margin: 4em 0;
 	}
 
-	.tb{
+	.tb {
 		vertical-align: top;
 		margin: 1.5em 0;
 
-		.title{
+		.title {
 			width: 20%;
 			float: left;
 			text-align: right;
 			font-weight: 900;
 		}
-		.info{
+		.info {
 			width: 78%;
 			float: right;
 			text-align: left;
 		}
-		&::after{
+		&::after {
 			display: block;
 			content: ' ';
 			clear: both;
@@ -75,28 +74,28 @@
 
 
 
-		.col_left{
+		.col_left {
 			width: 49%;
 			float: left;
 		}
-		.col_right{
+		.col_right {
 			width: 49%;
 			float: right;
 		}
-		.task{
+		.task {
 			text-align: right;
 			font-weight: 900;
 		}
-		.people{
+		.people {
 			text-align: left;
 		}
 
-		@media screen and (max-width: 800px){
-			.col_left , .col_right{
+		@media screen and (max-width: 800px) {
+			.col_left , .col_right {
 				width: 100%;
 				float: none;
 			}
-			.task , .people > p{
+			.task , .people > p {
 				text-align: center;
 				padding: 0;
 			}
@@ -104,12 +103,12 @@
 	}
 }
 
-.text{
+.text {
 	display: none;
 	transition: opacity 800ms $bezierTime;
 	opacity: 0;
 
-	&.show{
+	&.show {
 		opacity: 1;
 	}
 }
