@@ -6,7 +6,7 @@ module.exports = {
 		watch: './image/**/*'
 	},
 	sass: {
-		src: './scss/main.scss',
+		src: './scss/hackgen.scss',
 		dst: './build/',
 		watch: './scss/**/*'
 	},
