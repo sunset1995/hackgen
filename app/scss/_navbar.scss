@@ -1,7 +1,6 @@
-
 $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 
-#navbar{
+#navbar {
 	position: relative;
 	text-align: center;
 	font-size: $fontNormal;
@@ -15,11 +14,11 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	// landing page animation
 	transition: top 1000ms $bezierTime;
 	top: 6em;
-	&.open{
+	&.open {
 		top: 0;
 	}
 
-	.nav , a{
+	.nav , a {
 		position: relative; // for below triangle
 		text-decoration: none;
 		color: $darkGreen;
@@ -27,7 +26,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		padding: 0 0.5em;
 		transition: color 800ms $bezierTime;
 
-		h1{
+		h1 {
 			color: $darkGreen;
 			position: absolute;
 			left: 50%;
@@ -39,18 +38,18 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 			font-size: 3em;
 		}
 
-		&:hover{
+		&:hover {
 			color: $darkBlue;
 		}
 	}
 
-	.nav_triangle{
+	.nav_triangle {
 		display: inline-block;
 		border-top: 0.4em solid transparent;
 		border-bottom: 0.4em solid transparent;
 		border-left: 0.6em solid $darkGreen;
 	}
-	.nav_sub_triangle{
+	.nav_sub_triangle {
 		position: absolute;
 		top: 100%;
 		left: 50%;
@@ -62,15 +61,15 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		transition: opacity 800ms $bezierTime;
 	}
 
-	@media screen and (max-width: 800px){
-		.nav , a{
+	@media screen and (max-width: 800px) {
+		.nav , a {
 			display: block;
 			position: static;
 		}
-		.nav_sub_triangle , .nav_seperator{
+		.nav_sub_triangle , .nav_seperator {
 			display: none;
 		}
-		.nav > h1{
+		.nav > h1 {
 			position: absolute;
 			top: 110%;
 		}
@@ -79,18 +78,18 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 
 // css trick
 // use target selector and 
-.targetor{
+.targetor {
 	position: fixed;
 	top: 0;
 }
 @each $tab in $tabs {
-	#target_#{$tab}:target + ##{$tab}.open{
+	#target_#{$tab}:target + ##{$tab}.open {
 		color: $darkBlue;
-		.nav_sub_triangle{
+		.nav_sub_triangle {
 			transition: opacity 800ms $bezierTime 300ms;
 			opacity: 1;
 		}
-		h1{
+		h1 {
 			transition: opacity 800ms $bezierTime 300ms;
 			opacity: 1;
 		}

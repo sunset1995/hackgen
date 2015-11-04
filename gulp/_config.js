@@ -1,23 +1,23 @@
 
 module.exports = {
 	image: {
-		src: './image/**/*',
-		dst: './build/image/',
-		watch: './image/**/*'
+		src: 'app/image/**/*',
+		dst: 'build/image/',
+		watch: 'app/image/**/*'
 	},
 	sass: {
-		src: './scss/main.scss',
-		dst: './build/',
-		watch: './scss/**/*'
+		src: 'app/scss/hackgen.scss',
+		dst: 'build/',
+		watch: 'app/scss/**/*'
 	},
 	js: {
-		src: './js/main.js',
-		dst: './build',
-		watch: './js/**/**'
+		src: 'app/js/hackgen.js',
+		dst: 'build',
+		watch: 'app/js/**/**'
 	},
 	html: {
-		src: './index.html',
-		dst: './build',
-		watch: ['./index.html','./pages/*']
+		src: 'app/index.html',
+		dst: 'build',
+		watch: ['app/index.html','app/pages/*']
 	}
 };

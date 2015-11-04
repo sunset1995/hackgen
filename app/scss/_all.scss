@@ -1,6 +1,5 @@
-
-$darkGreen: #81895C;
-$darkBlue: #617380;
+$darkGreen: #A7AE84;
+$darkBlue: #939CA2;
 $gray: #C7D2B7;
 $lightBlue: #D9EBEA;
 
@@ -9,29 +8,30 @@ $fontNormal: 1.28em;
 $bezierTime: cubic-bezier(.16 , .84 , .44 , 1);
 $easeInOutBack: cubic-bezier(.68 , -.55 , .265 , 1.55);
 
-*{
+* {
 	margin: 0px;
-	font-family: Helvetica,"Open Sans","Microsoft JhengHei","PT Sans Narrow","Source Han Sans TWHK",sans-serif;
+	font-family: Helvetica, "Open Sans", "Microsoft JhengHei", "PT Sans Narrow", "Source Han Sans TWHK", sans-serif;
 }
 
-body{
+body {
 	overflow-y: scroll;
 	position: relative;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4), 1px 1px 0px rgba(133,133,100,0.333);
 }
 
-.responsive{
+.responsive {
 	width: 80%;
 	max-width: 700px;
 	margin: 0 auto;
 }
-.center{
+.center {
 	text-align: center;
 }
 
-a{
+a {
 	color: $darkBlue;
 }
-a.button{
+a.button {
 	display: inline-block;
 	margin: 2em auto;
 	padding: 1em;
@@ -44,7 +44,7 @@ a.button{
 	background-color: $darkBlue;
 	color: $gray;
 
-	&:hover{
+	&:hover {
 		box-shadow: 0 0 1em $gray;
 		background-color: $gray;
 		color: $darkBlue;		

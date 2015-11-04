@@ -1,27 +1,27 @@
-
-#logo{
+#logo {
 	position: relative;
-	
 
-	#bgCircle{
+
+	#bgCircle {
 		position: relative;
 		width: 200px;
 		height: 200px;
 		margin: 16px;
 	}
 
-	img{
+	img {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50% , -50%);
 	}
 
-	#logoBg{
+	#logoBg {
 		width: 100%;
 	}
-	#logoMain{
+
+	#logoMain {
 		width: 80%;
-		transform: translate(-50% , -55%);	
+		transform: translate(-50% , -55%);
 	}
 }

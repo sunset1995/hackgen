@@ -1,5 +1,4 @@
-
-#bg{
+#bg {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -8,26 +7,26 @@
 	height: 100%;
 	background-color: $lightBlue;
 
-	.layer{
+	.layer {
 		width: 100%;
 		height: 100%;
 	}
 
-	img{
+	img {
 		width: 110%;
 		height: auto;
 		position: absolute;
 		left: -8%;
 	}
-	.bgTop{
+	.bgTop {
 		top: -14%;
 	}
-	.bgBtn{
+	.bgBtn {
 		bottom: -14%;
 		//opacity: .5;
 	}
 }
 
-#bg_footer_stand{
+#bg_footer_stand {
 	height: 16em;
 }
