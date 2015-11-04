@@ -4,7 +4,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	position: relative;
 	text-align: center;
 	font-size: $fontNormal;
-	color: $darkGreen;
+	color: $darkBlue;
 	background-color: #fff;
 	max-width: 600px;
 	margin: 2em auto 0 auto;
@@ -21,7 +21,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 	.nav , a {
 		position: relative; // for below triangle
 		text-decoration: none;
-		color: $darkGreen;
+		color: $darkBlue;
 		font-weight: 600;
 		padding: 0 0.5em;
 		transition: color 800ms $bezierTime;
@@ -39,7 +39,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		}
 
 		&:hover {
-			color: $darkBlue;
+			color: $darkGreen;
 		}
 	}
 
@@ -84,7 +84,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 }
 @each $tab in $tabs {
 	#target_#{$tab}:target + ##{$tab}.open {
-		color: $darkBlue;
+		color: $darkGreen;
 		.nav_sub_triangle {
 			transition: opacity 800ms $bezierTime 300ms;
 			opacity: 1;

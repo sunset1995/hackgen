@@ -1,4 +1,4 @@
-$darkGreen: #A7AE84;
+$darkGreen: #5A6865;
 $darkBlue: #939CA2;
 $gray: #C7D2B7;
 $lightBlue: #D9EBEA;
@@ -16,7 +16,6 @@ $easeInOutBack: cubic-bezier(.68 , -.55 , .265 , 1.55);
 body {
 	overflow-y: scroll;
 	position: relative;
-	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.4), 1px 1px 0px rgba(133,133,100,0.333);
 }
 
 .responsive {
@@ -29,7 +28,7 @@ body {
 }
 
 a {
-	color: $darkBlue;
+	color: $darkGreen;
 }
 a.button {
 	display: inline-block;
@@ -40,13 +39,13 @@ a.button {
 	transition: color 300ms $easeInOutBack,
 					background-color 300ms $easeInOutBack,
 					box-shadow 300ms $easeInOutBack;
-	box-shadow: 0 0 1em $darkBlue;
-	background-color: $darkBlue;
+	box-shadow: 0 0 1em $darkGreen;
+	background-color: $darkGreen;
 	color: $gray;
 
 	&:hover {
 		box-shadow: 0 0 1em $gray;
 		background-color: $gray;
-		color: $darkBlue;		
+		color: $darkGreen;		
 	}
 }
