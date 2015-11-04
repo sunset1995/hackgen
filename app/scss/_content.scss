@@ -10,7 +10,7 @@
 	transition: min-height 800ms $bezierTime;
 
 	&>.responsive {
-		transition: opacity 800ms $bezierTime 1200ms;		
+		transition: opacity 800ms $bezierTime 1200ms;
 		opacity: 0;
 	}
 	&.open {
