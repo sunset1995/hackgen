@@ -28,7 +28,7 @@ body {
 }
 
 a {
-	color: $darkBlue;
+	color: $darkGreen;
 }
 a.button {
 	display: inline-block;
@@ -39,13 +39,13 @@ a.button {
 	transition: color 300ms $easeInOutBack,
 					background-color 300ms $easeInOutBack,
 					box-shadow 300ms $easeInOutBack;
-	box-shadow: 0 0 1em $darkBlue;
-	background-color: $darkBlue;
+	box-shadow: 0 0 1em $darkGreen;
+	background-color: $darkGreen;
 	color: $gray;
 
 	&:hover {
 		box-shadow: 0 0 1em $gray;
 		background-color: $gray;
-		color: $darkBlue;		
+		color: $darkGreen;		
 	}
 }
