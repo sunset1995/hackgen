@@ -36,6 +36,12 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 			transition: opacity 800ms $bezierTime;
 			pointer-events: none;
 			font-size: 3em;
+
+			@media screen and (max-width: 800px) {
+				& {
+					margin-top: 1em;
+				}
+			}
 		}
 
 		&:hover {

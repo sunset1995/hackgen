@@ -9,6 +9,12 @@
 	overflow-x: hidden;
 	transition: min-height 800ms $bezierTime;
 
+	@media screen and (max-width: 800px) {
+		& {
+			margin-top: 8em;
+		}
+	}
+
 	&>.responsive {
 		transition: opacity 800ms $bezierTime 1200ms;
 		opacity: 0;
