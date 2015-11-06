@@ -37,7 +37,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 			pointer-events: none;
 			font-size: 3em;
 
-			@media screen and (max-width: 800px) {
+			@include mobile() {
 				& {
 					margin-top: 1em;
 				}
@@ -67,7 +67,7 @@ $tabs: ("about" , "rules" ,  "schedule" , "staff" , "apply");
 		transition: opacity 800ms $bezierTime;
 	}
 
-	@media screen and (max-width: 800px) {
+	@include mobile() {
 		.nav , a {
 			display: block;
 			position: static;
