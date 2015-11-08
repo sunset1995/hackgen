@@ -130,6 +130,16 @@
 	}
 }
 
+.hosts {
+	.host {
+		display: block;
+		margin-bottom: 2em;
+
+		.name {
+		}
+	}
+}
+
 .text {
 	display: none;
 	transition: opacity 800ms $bezierTime;
