@@ -10,7 +10,14 @@ $easeInOutBack: cubic-bezier(.68 , -.55 , .265 , 1.55);
 
 * {
 	margin: 0px;
-	font-family: Helvetica, "Open Sans", "Microsoft JhengHei", "PT Sans Narrow", "Source Han Sans TWHK", sans-serif;
+	font-family: Helvetica,
+                 "Noto Sans CJK TC",
+                 "Source Han Sans TWHK",
+                 "Open Sans",
+                 "PingFang TC",
+                 "PT Sans Narrow",
+                 "Microsoft JhengHei",
+                 sans-serif;
 }
 
 body {
@@ -46,6 +53,6 @@ a.button {
 	&:hover {
 		box-shadow: 0 0 1em $gray;
 		background-color: $gray;
-		color: $darkGreen;		
+		color: $darkGreen;
 	}
 }

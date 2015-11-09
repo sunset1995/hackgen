@@ -12,7 +12,7 @@ gulp.task('debug' , ['default'] , function(){
       }
 	});
 
-	gulp.watch( config.sass.watch ,['scss',reload]);
+	gulp.watch( config.sass.watch ,['scss-debug',reload]);
 	gulp.watch( config.image.watch ,['image',reload]);
 	gulp.watch( config.js.watch ,['js',reload]);
 	gulp.watch( config.html.watch ,['html',reload] );
