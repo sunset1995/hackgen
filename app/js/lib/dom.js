@@ -29,13 +29,13 @@ removeEvent = function( ele , eve , func ) {
 	else ele[eve] = null;
 }
 removeClass = function( ele , classname ) {
-	if( !ele || !ele.className ) return;
+	if( !ele || typeof ele.className === 'undefined' ) return;
 	var reg = new RegExp(classname , "g");
 	ele.className = ele.className.replace( reg , "" );
 }
 addClass = function( ele , applyclass ) {
-	if( !ele || !ele.className ) return;
+	if( !ele || typeof ele.className === 'undefined' ) return;
 	if( ele.className.indexOf(applyclass)!=-1 ) return;
 	if( ele.className.length>0 ) ele.className += ' '+applyclass;
-	else ele.className = applyClass;
+	else ele.className = applyclass;
 }
